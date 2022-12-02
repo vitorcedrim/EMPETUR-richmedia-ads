@@ -128,12 +128,12 @@
             .then(response => response.blob())
              const data = {
                 files: [
-                new File([blob], 'bonito.jpg', {
+                new File([blob], 'noronha.jpg', {
                     type: blob.type,
                 }),
                 ],
-                title: 'Cachoeira de Bonito',
-                text: 'Essa cachoeira fica localizada em Pernambuco',
+                title: 'Fernando de Noronha',
+                text: 'Bora passar dias incríveis em Noronha!',
             }
             try {
                 if (!(navigator.canShare(data))) {
